@@ -1,4 +1,4 @@
 import os
-user = "kwkim"
-password = "jkkk111222"
+user = os.environ["IMPALA_USER"]
+print("-----------")
 print(user)
